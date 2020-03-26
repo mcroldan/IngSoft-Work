@@ -21,5 +21,6 @@ return this.cantidad=0;
 public void metodoComunitario(){
 // Comentario incluido para pruebas
 System.out.println("Aqui escribimos todos");
+System.out.println("Francisco María Bono Navarro");
 }
 }
