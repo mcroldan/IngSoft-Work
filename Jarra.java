@@ -21,8 +21,10 @@ return this.cantidad=0;
 public void metodoComunitario(){
 // Comentario incluido para pruebas
 System.out.println("Aqui escribimos todos");
-System.out.println("Francisco Mar�a Bono Navarro");
-
+System.out.println("Francisco Mar�a Bono Navarro");
+System.out.println("Manuel Nieto Jiménez");
+System.out.println("Manuel Cristóbal Roldán Gómez");
+System.out.println("Manuel Gómez Merino");
 
 }
 
