@@ -62,6 +62,15 @@ public int capacidad(){
 public int cantidad(){
     return this.cantidad;
 }
+public String toString() {
+	return "La jarra contiene "+cantidad+" litros de los "+this.capacidad+" totales";
+}
+public void llenaDesdeJarra(Jarra j) {
+	while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
+		this.cantidad++;
+		j.cantidad--;
+	}
+}
 
 >>>>>>> 641f72b5d4f40c04b2dbb682caf458cd42146841
 }
